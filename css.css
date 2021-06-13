@@ -119,6 +119,7 @@ body{
     right: -19%;
     bottom: 150%;
     opacity: 0;
+    visibility: hidden;
     transition: opacity 200ms ease-in-out;
 }
 .links a{
@@ -149,6 +150,7 @@ body{
 }
 .show{
     opacity: 1;
+    visibility: visible;
 }
 .attribution{
     position: absolute;
